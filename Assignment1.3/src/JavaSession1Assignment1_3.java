@@ -11,7 +11,7 @@ public class JavaSession1Assignment1_3 {
 	     {
 	    	 
 	        swap s1 = new swap();
-	    	 s1.SwapDisplay();
+	    	s1.SwapDisplay();
 	    	 
 	     }
 	     
@@ -45,15 +45,15 @@ void SwapDisplay()
 {
 	  
 	   
-	  System.out.println("Before Swapping");
+      System.out.println("Before Swapping");
       System.out.println("Value of a is = " + a);
       System.out.println("Value of b is = " + b);
 	  
-	  a = a + b;
-	  b = a - b;
-	  a = a - b;
+      a = a + b;
+      b = a - b;
+      a = a - b;
 	  
-	  System.out.println("After Swapping");
+      System.out.println("After Swapping");
       System.out.println("Value of a is = " + a);
       System.out.println("Value of b is = " + b);
 	  
